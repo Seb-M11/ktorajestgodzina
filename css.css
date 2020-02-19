@@ -19,6 +19,7 @@ li a {
   padding: 20px 16px;
   text-decoration: none;
   font-family:Lucida Console;
+ font-size:30px;
 }
 
 li a:hover {
@@ -64,7 +65,7 @@ body   {
 #aktualnosci {
 	color:white;
 	font-family:Lucida Console;
-	font-size:16px;
+	font-size:29px;
 	padding:10px;
 }
 
@@ -78,7 +79,7 @@ body   {
 	color:pink;	
 	
 }
-@media only screen and (max-width:1080px) {
+@media only screen and (max-width:1081px) {
   li {
     width: 100%;
   }
