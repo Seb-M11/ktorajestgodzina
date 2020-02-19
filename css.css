@@ -1,0 +1,80 @@
+nav {
+	height:;
+	background-color:#fc8c03;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;	
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-family:Lucida Console;
+}
+
+li a:hover {
+  background-color:#c7791a;
+}
+body   {
+	background-color:black;
+}
+#h1 {
+	color:white;
+	font-size:30px;
+	padding:0px;
+	margin:0px;
+	letter-spacing: -3px;
+	line-height: 0.0;
+	text-align:center;
+	font-family:Verdana;
+}
+#zegar  {
+	color:white;
+	text-align:center;
+	font-family:Lucida Console;
+	letter-spacing: -2vw;
+	font-size:20vw;
+		
+}
+#zegar:hover {
+	position: relative;
+	animation-name: zegar1;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-direction: alternate;  
+
+}
+@keyframes zegar1 {
+  0%   {left:0px; top:0px;}
+  25%  {left:0px; top:20px;}
+  75%  {top:-20px;}
+  100% {top:0px;}
+}
+
+#aktualnosci {
+	color:white;
+	font-family:Lucida Console;
+	
+}
+#ostronie  {
+	color:white;
+	font-family:Lucida Console;
+	
+}
+#ostronie a:hover {
+	color:pink;
+	transform: rotatez(90deg);
+	
+	
+}
