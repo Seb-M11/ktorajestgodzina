@@ -1,5 +1,4 @@
 nav {
-	height:;
 	background-color:#fc8c03;
 }
 ul {
@@ -65,16 +64,22 @@ body   {
 #aktualnosci {
 	color:white;
 	font-family:Lucida Console;
-	
+	font-size:16px;
+	padding:10px;
 }
+
 #ostronie  {
 	color:white;
 	font-family:Lucida Console;
-	
+	font-size:16px;
+	padding:10px;
 }
 #ostronie a:hover {
-	color:pink;
-	transform: rotatez(90deg);
+	color:pink;	
 	
-	
+}
+@media only screen and (max-width:1080px) {
+  li {
+    width: 100%;
+  }
 }
