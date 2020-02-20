@@ -19,7 +19,7 @@ li a {
   padding: 20px 16px;
   text-decoration: none;
   font-family:Lucida Console;
- font-size:30px;
+  font-size:30px;
 }
 
 li a:hover {
@@ -31,12 +31,22 @@ body   {
 #h1 {
 	color:white;
 	font-size:30px;
-	padding:0px;
-	margin:0px;
+	margin:0px 0px 20px 0px;
 	letter-spacing: -3px;
 	line-height: 0.0;
 	text-align:center;
 	font-family:Verdana;
+	text-shadow: 2px 3px #fc8c03;
+}
+#wersja {
+	color:white;
+	font-size:20px;
+	margin:10px 0px 30px 0px;
+	letter-spacing: 1px;
+	line-height: 0.0;
+	text-align:center;
+	font-family:Verdana;
+	text-shadow: 1px 1.5px #fc8c03;
 }
 #zegar  {
 	color:white;
@@ -44,17 +54,26 @@ body   {
 	font-family:Lucida Console;
 	letter-spacing: -2vw;
 	font-size:20vw;
-		
-}
-#zegar:hover {
+	text-shadow: 5px 5px #fc8c03;
 	position: relative;
 	animation-name: zegar1;
-	animation-duration: 3s;
+	animation-duration: 10s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;  
-
+		
 }
+#cytaty {
+	color:white;
+	font-family:Verdana;
+	font-size:22px;
+	text-align:center;
+	border: solid ;
+	margin:0px 20%;
+	padding:10px;
+	
+}
+
 @keyframes zegar1 {
   0%   {left:0px; top:0px;}
   25%  {left:0px; top:20px;}
@@ -65,7 +84,7 @@ body   {
 #aktualnosci {
 	color:white;
 	font-family:Lucida Console;
-	font-size:29px;
+	font-size:16px;
 	padding:10px;
 }
 
@@ -79,8 +98,31 @@ body   {
 	color:pink;	
 	
 }
+#firma {
+	float:left; 
+	margin-right:20px;
+	width:30%;
+}
 @media only screen and (max-width:1081px) {
   li {
-    width: 100%;
+	width: 33.333333333333333%;
   }
+  li a {
+	height: 2em;
+
+  }
+  #aktualnosci {
+	font-size:1.6em;
+  }
+  #ostronie {
+	font-size:1.6em;
+  }
+  #cytaty {
+	font-size:1.7em;
+	margin:0px 10%;
+  }
+  #firma {
+	  width:50%
+  }
+
 }
